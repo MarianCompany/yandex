@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.6.0.js" type="text/javascript"></script>
+    <script src="js/slick.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page__container">
+        <section class="page main-page active-page">
+            <div class="container">
+                <div class="main-page__logo-wrap">
+                    <img src="img/main-page__logo.png" alt="" class="main-page__logo">
+                </div>
+                <article class="main-page__article">
+                    <div class="main-page__text-wrap">
+                        <h2 class="main-page__title">Дарим от 3 000 рублей <br> до 10 000 рублей </h2>
+                        <p class="main-page__text">на поездки в <span class="text_bold">Яндекс GO Такси</span> за <span class="text_bold">1Р</span></p>
+                        <button class="btn main-page__btn next__btn" data-to=".question1-page">Участвовать в акции</button>
+                    </div>
+                    <img src="img/main-page__poster.png" alt="" class="main-page__poster">
+                </article>
+            </div>
+        </section>
+
+        <section class="page question-page question1-page">
+            <article class="article_default question__article container">
+                <h4 class="article__main-title question__main-title">Для участия в летней акции ответьте на вопросы:</h4>
+                <div class="article__block question__block  question__block_single">
+                    <div class="article__wrap question__wrap">
+                        <h6 class="question__title">Какие поездки вы чаще всего совершаете?</h6>
+                        <div class="question__list question__list_single">
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked active">+</p>
+                                </div>
+
+                                <p class="question__label">Деловые поездки</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Семейные поездки</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Поездки с детьми</p>
+                            </div>
+                        </div>
+                        <button class="btn question__btn next__btn" data-to=".question2-page">Далее</button>
+                    </div>
+                    <img src="img/question1__poster.png" alt="" class="article__poster question__poster">
+                </div>
+            </article>
+        </section>
+        <section class="page question-page question2-page">
+            <article class="article_default question__article container">
+                <h4 class="article__main-title question__main-title">Для участия в летней акции ответьте на вопросы:</h4>
+                <div class="article__block question__block">
+                    <div class="article__wrap question__wrap">
+                        <h6 class="question__title">Какой тариф вы чаще всего используете?</h6>
+                        <div class="question__list">
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Эконом</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Комфорт</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Комфорт +</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Business</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Детский</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Самый быстрый</p>
+                            </div>
+                        </div>
+                        <button class="btn question__btn next__btn" data-to=".question3-page">Далее</button>
+                    </div>
+                    <img src="img/question2__poster.png" alt="" class="article__poster question__poster">
+                </div>
+            </article>
+        </section>
+        <section class="page question-page question3-page">
+            <article class="article_default question__article container">
+                <h4 class="article__main-title question__main-title">Для участия в летней акции ответьте на вопросы:</h4>
+                <div class="article__block question__block question__block_single">
+                    <div class="article__wrap question__wrap">
+                        <h6 class="question__title">При выборе тарифа на что вы обращаете внимание?</h6>
+                        <div class="question__list question__list_single">
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Стоимость поездки</p>
+                            </div>
+                            <div class="question">
+                                <div class="question__checkbox">
+                                    <p class="question__checked">+</p>
+                                </div>
+
+                                <p class="question__label">Время ожидания</p>
+                            </div>
+                        </div>
+                        <button class="btn question__btn next__btn" data-to=".question__loader">Далее</button>
+                    </div>
+                    <img src="img/question3__poster.png" alt="" class="article__poster question__poster">
+                </div>
+            </article>
+        </section>
+
+        <section class="page question-page question__loader">
+            <div class="container">
+                <article class="question__article loader__article">
+                    <div class="article__block question__block question-loader__block">
+                        <h4 class="loader__title">Проверяем ваши ответы…</h4>
+                        <img src="img/loader.png" alt="" class="loader__img">
+                        <img src="img/icons/loader__dots.svg" alt="" class="loader__dots">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="page present-page">
+            <article class="present__article container">
+                <h4 class="present__title">Ваш подарок находится в одной из коробок</h4>
+                <div class="present__block">
+                    <div class="present__header">
+                        <h6 class="present__header-title">Смело жмите на одну из них</h6>
+                    </div>
+                    <div class="present__list">
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                        <div class="present__el">
+                            <img src="img/present.png" alt="" class="present__img">
+                        </div>
+                    </div>
+                </div>
+                <div class="present__block present__tries-wrap">
+                    <div class="present__tries">
+                        <div class="present__tries-text-wrap">
+                            <h6 class="present__tries-title">НАЙДИТЕ ПРИЗ</h6>
+                            <p class="present__tries-text">Осталось попыток</p>
+                        </div>
+
+                        <p class="present__tries-number">3</p>
+                    </div>
+                </div>
+                <div class="present__disclaimer-wrap">
+                    <p class="present__disclaimer-text">*Вы можете принять участие в акции только один раз</p>
+                </div>
+            </article>
+        </section>
+        <section class="page present-page_empty">
+            <article class="present__article container">
+                <div class="present__block">
+                    <div class="present__header">
+                        <h6 class="present__header-title">Пусто!</h6>
+                    </div>
+                    <img src="img/present_opened.png" alt="" class="present-result__img">
+                    <p class="present-result__text present__text_fail">К сожалению коробка оказалась пустой <br>
+                        У вас осталось ещё <span class="present__tries-number">3</span> попытки
+                    </p>
+                    <button class="btn present__btn next__btn" data-to=".present-page">ХОРОШО</button>
+                </div>
+            </article>
+        </section>
+        <section class="page present-page_correct">
+            <article class="present__article container">
+                <div class="present__block">
+                    <div class="present__header">
+                        <h6 class="present__header-title">Поздравляем!</h6>
+                    </div>
+                    <img src="img/present_opened-prize.png" alt="" class="present-result__img">
+                    <p class="present-result__text">Теперь вы можете открыть свой подарок</p>
+                    <button class="btn present__btn next__btn" data-to=".congratulation-page">ХОРОШО</button>
+                </div>
+            </article>
+        </section>
+        
+        <section class="page congratulation-page">
+            <article class="article_default congratulation__article container">
+                <h4 class="article__main-title congratulation__main-title">Поздравляем!</h4>
+                <div class="article__block congratulation__block">
+                    <div class="article__wrap congratulation__wrap">
+                        <h4 class="congratulation__title">ВАШ ВЫИГРЫШ – ПРОМОКОД НА 4500р</h4>
+                        <p class="congratulation__header-text">Его вы сможете использовать в приложении <span class="text_bold">Яндекс GO Такси</span></p>
+                        <div class="congratulation__content">
+                            <div class="congratulation__content-text">
+                                <p class="congratulation__text text_bold">Условия получения:</p>
+                                <p class="congratulation__text">1.	Вы должны рассказать о нашей акции
+                                    <span class="text_bold">10 друзьям</span> – такой акцией делиться не стыдно
+                                </p>
+                                <p class="congratulation__text">2.	Завершите регистрацию в акции и <span class="text_bold">получите свой промокод</span></p>
+                                <img src="img/congratulations__poster.png" alt="" class="article__poster congratulation__poster congratulation__poster_sm">
+                                <div class="congratulation__btn-wrap">
+                                    <button class="btn congratulation__btn next__btn" data-to=".result-page">ХОРОШО</button>
+                                </div>
+                            </div>
+                            <img src="img/congratulations__poster.png" alt="" class="article__poster congratulation__poster congratulation__poster_xl">
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="page result-page">
+            <div class="article_default result__article container">
+                <div class="article__wrap result__wrap">
+                    <img src="img/result__poster.png" alt="" class="result__poster">
+                    <div class="result__text-wrap">
+                        <p class="result__text">Чтобы получить выигрыш <br>
+                            Промокод на 4500Р
+                        </p>
+                        <p class="result__text">Вам необходимо выполнить одно условие:</p>
+                        <p class="result__text result__text_xl">Поделитесь ссылкой с 10 друзьями, используя WhatsApp</p>
+                        <a class="result__btn-whatsapp" href="https://web.whatsapp.com/" target="_blank">
+                            <img src="img/icons/whatsapp.svg" alt="" class="btn__img whatsapp__img"> WhatsApp
+                        </a>
+                        <div class="result-progress">
+                            <p class="progress-text">Делитесь пока не заполнится полоса!</p>
+                            <div class="progress" style="height: 5px">
+                                <div class="progress-bar" role="progressbar" aria-valuenow="" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p class="progress-text"><span class="progress-percent">0</span>%</p>
+                        </div>
+                        <p class="result__text result__text_regular">После выполнения кнопка <br>
+                            <span class="text_bold">«Продолжить»</span> станет активной
+                        </p>
+                        <button class="result__btn-next" disabled>Продолжить<img src="img/icons/next.svg" alt="" class="btn__img next__img"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
