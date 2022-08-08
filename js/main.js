@@ -3,6 +3,8 @@ $(document).ready(function() {
     let whatsappClicks = 0;
     const whatsappNeededClicks = 10;
 
+    $('.result__btn-whatsapp').attr('href', `https://wa.me/?text=${window.location.href}`);
+
     $('.question__checkbox').click(function(event) {
         event.preventDefault();
         $('.active').removeClass('active');
@@ -43,9 +45,11 @@ $(document).ready(function() {
     })
 
     $('.result__btn-whatsapp').click(function(event) {
-        whatsappClicks++;
-        $('.progress-bar').css('width', String(whatsappClicks / whatsappNeededClicks * 100) + '%');
-        $('.progress-percent').html(whatsappClicks / whatsappNeededClicks * 100);
+        if(whatsappClicks < 10) {
+            whatsappClicks++;
+            $('.progress-bar').css('width', String(whatsappClicks / whatsappNeededClicks * 100) + '%');
+            $('.progress-percent').html(whatsappClicks / whatsappNeededClicks * 100);
+        }
         if(whatsappClicks === whatsappNeededClicks) {
             $('.result__btn-next').prop('disabled', false);
             $('.result__btn-next').css('color', '#fff');
